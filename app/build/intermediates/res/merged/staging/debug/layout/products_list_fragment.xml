@@ -26,4 +26,4 @@ tools:context=".MainActivity">
     android:numColumns="2"
     android:stretchMode="columnWidth"
     android:verticalSpacing="0dp" />
-</RelativeLayout><!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/layout/products_list_fragment.xml -->
+</RelativeLayout><!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/app/src/main/res/layout/products_list_fragment.xml -->

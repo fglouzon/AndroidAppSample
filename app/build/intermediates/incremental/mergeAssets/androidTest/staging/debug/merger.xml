@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/glouzonf/work/git/SampleApp/app/src/androidTest/assets"/></dataSet><dataSet config="staging"><source path="/Users/glouzonf/work/git/SampleApp/app/src/androidTestStaging/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/glouzonf/work/git/AndroidAppSample/app/src/androidTest/assets"/></dataSet><dataSet config="staging"><source path="/Users/glouzonf/work/git/AndroidAppSample/app/src/androidTestStaging/assets"/></dataSet></merger>

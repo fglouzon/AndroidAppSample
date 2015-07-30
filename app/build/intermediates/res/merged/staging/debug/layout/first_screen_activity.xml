@@ -5,4 +5,4 @@
     tools:context=".MainActivity"
     android:id="@+id/first_screen_activity_container">
 </RelativeLayout>
-<!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/layout/first_screen_activity.xml -->
+<!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/app/src/main/res/layout/first_screen_activity.xml -->

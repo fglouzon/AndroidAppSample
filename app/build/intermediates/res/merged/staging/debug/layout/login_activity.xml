@@ -5,4 +5,4 @@
     tools:context=".MainActivity"
     android:id="@+id/login_activity_container">
 </RelativeLayout>
-<!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/layout/login_activity.xml -->
+<!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/app/src/main/res/layout/login_activity.xml -->

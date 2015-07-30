@@ -16,4 +16,4 @@
         android:textIsSelectable="false"
         android:textColor="@color/item_adapter_list_navigation_drawer"/>
 
-</RelativeLayout><!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/layout/item_adapter_navigation_drawer.xml -->
+</RelativeLayout><!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/app/src/main/res/layout/item_adapter_navigation_drawer.xml -->

@@ -18,4 +18,4 @@
         android:layout_below="@+id/toolbar"/>
 
 </RelativeLayout>
-<!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/layout/wishlist_fragment.xml -->
+<!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/app/src/main/res/layout/wishlist_fragment.xml -->

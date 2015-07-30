@@ -4,4 +4,4 @@
     android:accountType="myapp.glouz.net"
     android:icon="@drawable/ic_launcher"
     android:smallIcon="@drawable/ic_launcher"
-    android:label="@string/app_name"/><!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/xml/authenticator.xml -->
+    android:label="@string/app_name"/><!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/app/src/main/res/xml/authenticator.xml -->

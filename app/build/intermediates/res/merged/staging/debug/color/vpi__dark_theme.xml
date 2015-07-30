@@ -22,4 +22,4 @@
     <!--item android:state_activated="true" android:color="@color/vpi__bright_foreground_holo_dark"/-->
     <item android:color="@color/vpi__bright_foreground_holo_dark"/> <!-- not selected -->
 </selector>
-<!-- From: file:/Users/glouzonf/work/git/SampleApp/viewPagerIndicatorlibrary/src/main/res/color/vpi__dark_theme.xml --><!-- From: file:/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/SampleApp/viewPagerIndicatorlibrary/unspecified/res/color/vpi__dark_theme.xml -->
+<!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/viewPagerIndicatorlibrary/src/main/res/color/vpi__dark_theme.xml --><!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/app/build/intermediates/exploded-aar/AndroidAppSample/viewPagerIndicatorlibrary/unspecified/res/color/vpi__dark_theme.xml -->

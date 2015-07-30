@@ -10,4 +10,4 @@
         android:topLeftRadius="8dp"
         android:topRightRadius="@dimen/card_corner_rounding" />
 
-</shape><!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/drawable-mdpi/background_static_white_error.xml -->
+</shape><!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/app/src/main/res/drawable-mdpi/background_static_white_error.xml -->

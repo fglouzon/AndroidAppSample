@@ -8,4 +8,4 @@
         android:bottomLeftRadius="@dimen/card_corner_rounding"
         android:topLeftRadius="@dimen/card_corner_rounding" />
 
-</shape><!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/drawable-mdpi/background_static_red_left_rounded_corners.xml -->
+</shape><!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/app/src/main/res/drawable-mdpi/background_static_red_left_rounded_corners.xml -->

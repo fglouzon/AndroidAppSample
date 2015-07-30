@@ -7,4 +7,4 @@
         android:interpolator="@android:anim/accelerate_interpolator"
         android:toYDelta="0%p" />
 
-</set><!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/anim/slide_up_in.xml -->
+</set><!-- From: file:/Users/glouzonf/work/git/AndroidAppSample/app/src/main/res/anim/slide_up_in.xml -->
