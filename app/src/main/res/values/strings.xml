@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Navigation drawer-->
+    <string name="women_category_navigation_drawer">Women</string>
+    <string name="men_category_navigation_drawer">Men</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="progress_dialog_text">Please wait...</string>
+
+    <!--product details-->
+    <string name="add_to_bag_product_details">Add to bag %1$s</string>
+
+</resources>

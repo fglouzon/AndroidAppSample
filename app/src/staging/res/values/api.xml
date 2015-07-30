@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="api_endpoint">https://dl.dropboxusercontent.com/u/1559445/ASOS/SampleApi</string>
+    <string name="api_mock_endpoint">http://echo.jsontest.com/</string>
+
+</resources>

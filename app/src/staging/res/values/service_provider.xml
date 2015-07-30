@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="service_providers">
+        <item>3</item>
+        <item>Carphone Warehouse</item>
+        <item>Dixons</item>
+        <item>EE</item>
+        <item>John Lewis</item>
+        <item>Meteor</item>
+        <item>O2</item>
+        <item>Orange UK</item>
+        <item>Other</item>
+        <item>Phones 4U</item>
+        <item>T-Mobile UK</item>
+        <item>Tesco</item>
+        <item>Tesco Ireland</item>
+        <item>Vodafone</item>
+        <item>Vodafone Ireland</item>
+    </string-array>
+    <string-array name="service_providers_codes">
+        <item>H3G</item>
+        <item>CPW</item>
+        <item>BTU</item>
+        <item>EVR</item>
+        <item>BTU</item>
+        <item>MET</item>
+        <item>O2U</item>
+        <item>ORA</item>
+        <item>BTU</item>
+        <item>P4U</item>
+        <item>TMU</item>
+        <item>TSC</item>
+        <item>TSI</item>
+        <item>VOD</item>
+        <item>VDI</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,39 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:elevation="4dp"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/logo"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/basketToolbar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/basket"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/wishlistToolbar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/basketToolbar"
+            android:background="@drawable/wishlist" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
+<!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/layout/toolbar.xml -->

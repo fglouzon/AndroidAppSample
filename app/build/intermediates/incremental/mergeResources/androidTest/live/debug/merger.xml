@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/glouzonf/work/git/SampleApp/app/src/androidTest/res"/><source path="/Users/glouzonf/work/git/SampleApp/app/build/generated/res/rs/androidTest/live/debug"/><source path="/Users/glouzonf/work/git/SampleApp/app/build/generated/res/generated/androidTest/live/debug"/></dataSet><dataSet config="androidTestLive"><source path="/Users/glouzonf/work/git/SampleApp/app/src/androidTestLive/res"/></dataSet><mergedItems/></merger>

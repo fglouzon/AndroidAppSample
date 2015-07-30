@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/toast_layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:paddingTop="8dp"
+              android:paddingBottom="8dp"
+              android:paddingLeft="12dp"
+              android:paddingRight="12dp"
+              android:layout_marginBottom="@dimen/bottom_margin_toast"
+              android:background="@drawable/background_toast">
+
+    <com.monitisecreate.kitti.view.simplefontviews.SimpleTextView
+        android:id="@+id/toast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"/>
+</LinearLayout><!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/layout/toast_layout.xml -->

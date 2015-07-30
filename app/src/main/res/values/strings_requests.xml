@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="products_category_men">cats_men.json</string>
+    <string name="products_category_women">cats_women.json</string>
+
+</resources>

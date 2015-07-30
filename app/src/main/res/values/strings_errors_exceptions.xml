@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--dev error exceptions-->
+    <string name="fragment_layout_missing_exception">You need to to set the root layout of fragment %1$s</string>
+    <string name="connectivity_error">No network connection</string>
+    <string name="error_deserializing_model">Error while trying to deserialize the model</string>
+
+    <!--errors-->
+    <string name="app_internal_error_server_response_parsing">Error parsing server response.</string>
+    <string name="http_error_generic">There was a problem with your request.</string>
+    <string name="http_timeout_error">Your request timed out.</string>
+
+    <!--generic http errors-->
+    <string name="http_error_403">Forbidden</string>
+    <string name="http_error_500">Internal server error</string>
+
+    <!--api specific http errors-->
+    <string name="api_error_602">api error 602</string>
+    <string name="api_error_2530">api error 2530</string>
+
+</resources>

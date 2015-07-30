@@ -1,0 +1,156 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'com.android.databinding'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.android.support:recyclerview-v7:22.0.0'
+    //image loader
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    //robospice
+    compile 'com.octo.android.robospice:robospice:1.4.14'
+    compile 'com.octo.android.robospice:robospice-cache:1.4.14'
+    compile 'com.octo.android.robospice:robospice-retrofit:1.4.14'
+    compile 'com.octo.android.robospice:robospice-ormlite:1.4.14'
+    //ormlite
+    compile 'com.j256.ormlite:ormlite-core:4.48'
+    compile 'com.j256.ormlite:ormlite-android:4.48'
+    //ormlite content provider
+    compile 'com.tojc.ormlite.android:ormlite-content-provider-library:1.0.3@jar'
+    apt 'com.tojc.ormlite.android:ormlite-content-provider-compiler:1.0.3'
+    // jar only
+    //retrofit
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.squareup.retrofit:converter-jackson:1.9.0'
+    //okhttp
+    compile 'com.squareup.okhttp:okhttp:2.2.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
+    compile 'com.squareup.okio:okio:1.2.0'
+    //jackson json
+    compile 'com.fasterxml.jackson.core:jackson-core:2.5.3'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.5.3'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.5.3'
+    //gson json
+    //compile 'com.google.code.gson:gson:2.3.1'
+    //eventbus
+    compile 'de.greenrobot:eventbus:2.4.0'
+    //butterknife
+    compile 'com.jakewharton:butterknife:6.1.0'
+    //rxandroid
+    compile 'io.reactivex:rxandroid:0.24.0'
+    //unit tests
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.9.5'
+    //for easier android assertions : https://github.com/square/assertj-android
+    //project libraries
+    compile project(':viewPagerIndicatorlibrary')
+
+    compile 'com.android.support:design:22.2.0'
+
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.3.1'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.3.1'
+}
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions{
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    // Set versionCode and versionName based off Jenkins build number
+    def suffix = System.getenv("BUILD_NUMBER")
+    def branch = System.getenv("GIT_BRANCH")
+
+    defaultConfig {
+        applicationId "net.glouz.myapp"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0.0"
+
+        if (suffix != null) {
+            def vers = Integer.parseInt(suffix)
+            versionCode vers
+        }
+    }
+
+    signingConfigs {
+        debug {
+            // Having a shared debug keystore means that the app only needs to be configured for
+            // APIs like Google Maps, Facebook etc with one key hash
+            storeFile rootProject.file("config/signing/debug.keystore")
+        }
+
+        release {
+            // IMPORTANT: Remember to create your own keystore or use the client's one before release!
+            storeFile rootProject.file("config/signing/release.keystore")
+            storePassword 'skeleton'
+            keyAlias 'skeleton'
+            keyPassword 'skeleton'
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    // Project-specific Proguard file
+                    rootProject.file('config/proguard/proguard-rules.pro'),
+                    // Proguard for commonly-used libraries (see config/proguard/libraries for more)
+                    // Derived from: https://github.com/krschultz/android-proguard-snippets
+                    rootProject.file('config/proguard/libraries/proguard-gson.pro'),
+                    rootProject.file('config/proguard/libraries/proguard-square-retrofit.pro')
+        }
+    }
+
+    productFlavors {
+        live {
+        }
+
+        staging {
+            // You can have a different package name for a staging build, so both flavors can be
+            // installed side-by-side.
+            // You will need to substitute the package name for ${applicationId} in
+            // AndroidManifest.xml for Content Providers etc.
+            applicationId "net.glouz.myapp.staging"
+        }
+    }
+
+    // Append the branch name for sprint and development to the versionName to easily
+    // identify in Hockey
+    applicationVariants.all { variant ->
+        // Don't append the branch name for any builds off master
+        if (branch != null && !branch.equalsIgnoreCase("origin/master")) {
+            variant.mergedFlavor.versionName = android.defaultConfig.versionName + "." + suffix + branch.replace("origin/", "-") + "-" + variant.flavorName
+        } else {
+            if (suffix != null) {
+                variant.mergedFlavor.versionName = android.defaultConfig.versionName + "." + suffix
+            }
+        }
+    }
+
+//    apply from: rootProject.file('config/checkstyle/checkstyle.gradle')
+//    apply from: rootProject.file('config/findbugs/findbugs.gradle')
+
+    lintOptions {
+        abortOnError false
+    }
+}

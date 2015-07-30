@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/SampleApplication.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/business/manager/BaseManager.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/business/manager/ProductManager.java">
+<error line="56" column="21" severity="error" message="Got an exception - expecting EOF, found &apos;}&apos;" source="com.puppycrawl.tools.checkstyle.TreeWalker"/>
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/business/manager/interfaces/ValidateData.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/business/rule/BaseRule.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/commons/Utils/BaseUtils.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/commons/Utils/NetworkUtils.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/commons/Utils/VisualUtils.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/commons/helpers/BaseHelper.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/controller/BaseController.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/controller/ProductController.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/event/ErrorEvent.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/network/ApiErrorProcessor.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/network/SampleAppErrorHandler.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/request/BaseRequest.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/request/product/ProductRequestsInterface.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/request/product/productdetails/ProductDetailsRequest.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/request/product/productdetails/ProductDetailsRequestListener.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/request/product/productsbycategory/ProductsByCategoryRequest.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/request/product/productsbycategory/ProductsByCategoryRequestListener.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/request/product/productscategories/ProductsCategoriesRequest.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/request/product/productscategories/ProductsCategoriesRequestListener.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/service/RequestServiceBase.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/service/RequestServiceSampleApp.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/webapi/BaseWebapi.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/api/webapi/ProductWebapi.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/models/BaseModel.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/models/apierror/ApiError.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/models/apierror/ApiErrorDetails.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/models/product/Product.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/models/product/ProductCategories.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/models/product/ProductCategory.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/models/product/ProductDetails.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/models/product/ProductsByCategory.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/storage/dao/BaseDao.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/storage/file/BaseFileStorage.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/model/storage/sharedprefs/BaseSharedPrefsStorage.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/view/activity/BaseActivity.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/view/activity/MainActivity.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/view/custom/BaseCustomView.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/view/custom/ProgressDialogSampleApp.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/view/fragment/BaseDialogFrag.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/view/fragment/BaseFragment.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/view/fragment/ErrorDialogFrag.java">
+</file>
+<file name="/Users/glouzonf/work/git/SampleApp/app/src/main/java/net/glouz/myapp/view/fragment/FirstScreenFragment.java">
+</file>
+</checkstyle>

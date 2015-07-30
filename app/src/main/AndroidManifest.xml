@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.glouz.myapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".SampleApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name=".view.activity.FirstScreenActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+            <!--android:name=".view.activity.LoginActivity"-->
+            <!--android:configChanges="orientation|screenSize"-->
+            <!--android:label="@string/app_name" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name=".view.activity.ProductsWishlistActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name=".view.activity.ProductsBagActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name=".view.activity.ProductDetailsActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+
+        <service
+            android:name=".model.api.service.RequestServiceBase"
+            android:exported="false" >
+        </service>
+        <service
+            android:name=".model.api.service.RequestServiceSampleApp"
+            android:exported="false" >
+        </service>
+        <service
+            android:name=".model.api.service.RequestServiceMockRESTapiSampleApp"
+            android:exported="false" >
+        </service>
+
+        <provider
+            android:name=".model.storage.provider.ContentProviderHelper"
+            android:authorities="net.glouz.myapp.model.models.product"
+            android:exported="false" />
+    </application>
+
+</manifest>

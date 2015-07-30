@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.glouz.myapp.staging"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- To store the heap dumps and leak analysis results. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="net.glouz.myapp.SampleApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="net.glouz.myapp.view.activity.FirstScreenActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".view.activity.LoginActivity" -->
+        <!-- android:configChanges="orientation|screenSize" -->
+        <!-- android:label="@string/app_name" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name="net.glouz.myapp.view.activity.MainActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="net.glouz.myapp.view.activity.ProductsWishlistActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="net.glouz.myapp.view.activity.ProductsBagActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="net.glouz.myapp.view.activity.ProductDetailsActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+
+        <service
+            android:name="net.glouz.myapp.model.api.service.RequestServiceBase"
+            android:exported="false" >
+        </service>
+        <service
+            android:name="net.glouz.myapp.model.api.service.RequestServiceSampleApp"
+            android:exported="false" >
+        </service>
+        <service
+            android:name="net.glouz.myapp.model.api.service.RequestServiceMockRESTapiSampleApp"
+            android:exported="false" >
+        </service>
+
+        <provider
+            android:name="net.glouz.myapp.model.storage.provider.ContentProviderHelper"
+            android:authorities="net.glouz.myapp.model.models.product"
+            android:exported="false" />
+
+        <activity
+            android:name="android.support.v7.widget.TestActivity"
+            android:label="RecyclerViewTestActivity" />
+
+        <service
+            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+            android:enabled="false"
+            android:process=":leakcanary" />
+        <service
+            android:name="com.squareup.leakcanary.DisplayLeakService"
+            android:enabled="false" />
+
+        <activity
+            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+            android:enabled="false"
+            android:icon="@drawable/__leak_canary_icon"
+            android:label="@string/__leak_canary_display_activity_label"
+            android:taskAffinity="com.squareup.leakcanary"
+            android:theme="@style/__LeakCanary.Base" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

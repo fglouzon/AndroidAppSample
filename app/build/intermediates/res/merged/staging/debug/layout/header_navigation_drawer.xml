@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="5dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/womenProductCategoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight=".3"
+            android:background="@android:color/transparent"
+            android:text="@string/women_category_navigation_drawer"
+            android:textColor="@color/category_selector_text_header_navigation_drawer"/>
+
+        <Button
+            android:id="@+id/menProductCategoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:background="@android:color/transparent"
+            android:text="@string/men_category_navigation_drawer"
+            android:textColor="@color/category_selector_text_header_navigation_drawer"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+
+</LinearLayout><!-- From: file:/Users/glouzonf/work/git/SampleApp/app/src/main/res/layout/header_navigation_drawer.xml -->

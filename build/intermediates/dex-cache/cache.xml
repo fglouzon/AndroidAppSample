@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.3/ade455ede4797ed450ca6a56e589a81278fc8f45/jackson-annotations-2.5.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ade455ede4797ed450ca6a56e589a81278fc8f45">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/jackson-annotations-2.5.3-cfb2d0118c424a36cbce13fa87c43e5fd68bcb12.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/internal_impl-22.2.0-c5f5d2bd695081ddc341e6b5db75bc9f8bf656fa.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-9dd34d7832badbe64ad2908124e4bc8c194f85a5.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice-ormlite/1.4.14/cf81c48c00306144ffa48befe3f7a317ac2eb052/robospice-ormlite-1.4.14.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cf81c48c00306144ffa48befe3f7a317ac2eb052">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/robospice-ormlite-1.4.14-4b589757440c507a2cf00a37f168bdebfd212022.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/retrofit-1.9.0-9c6926a976343eab90a87bcad3c97311b237690e.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/dev_env/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/support-annotations-22.2.0-fada46b6ca531d94eb457e49da40f22a744d6ee2.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/0.24.0/42dab493b8f74b164e082f281480c9d493ff89da/rxandroid-0.24.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42dab493b8f74b164e082f281480c9d493ff89da">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/rxandroid-0.24.0-7fdd9224c6739e6335aacafc75b7944ab5e2a9b1.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.tojc.ormlite.android/ormlite-content-provider-library/1.0.3/13c518abcc26952692657ce8f67e6ba0638ac8fe/ormlite-content-provider-library-1.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="13c518abcc26952692657ce8f67e6ba0638ac8fe">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/ormlite-content-provider-library-1.0.3-cd98bd38a88c09c9f008e51f66483ff9ab75eb71.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-110df73d5c6d545d4679721f18319ab77573c5a7.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice-retrofit/1.4.14/c5e93129d2df923119f8ee659b3723dd0d631d1d/robospice-retrofit-1.4.14.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5e93129d2df923119f8ee659b3723dd0d631d1d">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/robospice-retrofit-1.4.14-300ba50f3248393839ad66ace5102f95236e5239.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ce6a308434b0569d59dc70928fca93c4f2f18a4">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-7daf99d63545ebc96d53a05a6721f54c17e3fa1a.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/1.0-rc0/34ddf14599044eab34480d4ae6aac464c431eff3/baseLibrary-1.0-rc0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="34ddf14599044eab34480d4ae6aac464c431eff3">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/baseLibrary-1.0-rc0-dce9796cf4bfac5be9f45af0cefca712f03b37b0.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-jackson/1.9.0/a3968e43e377b21ade8fa77d633716edda8fe17b/converter-jackson-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3968e43e377b21ade8fa77d633716edda8fe17b">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/converter-jackson-1.9.0-e30d305f4935c980fa68ca6469208104d829c5a5.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/dev_env/sdk/extras/android/m2repository/com/android/databinding/adapters/1.0-rc0/adapters-1.0-rc0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="43cd8b4485a9770ddc4bbf0eb28ba3a188d0880b">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/adapters-1.0-rc0-27747785cfb912d9a2e55d9890e87747de3fe88d.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice-cache/1.4.14/1a13bea0b3ae105c44cb6be7fc76b6d36098faf5/robospice-cache-1.4.14.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a13bea0b3ae105c44cb6be7fc76b6d36098faf5">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/robospice-cache-1.4.14-4961bd8760a0a0294ac5a18b36433817ed5dfd08.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/eventbus-2.4.0-eb9f4905d64079d352cedf2925a4a3ddb223dc2b.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.48/afa06f539a4026c10b247386312aa67404b80a16/ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/ormlite-android-4.48-812df485b9f0228fc29c6196c113a285713b3709.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/picasso-2.5.2-2db2db7a0bfb6ab5fa898975bd5451f3c9742b06.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.tojc.ormlite.android/ormlite-content-provider-library/1.0.3/13c518abcc26952692657ce8f67e6ba0638ac8fe/ormlite-content-provider-library-1.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="13c518abcc26952692657ce8f67e6ba0638ac8fe">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/ormlite-content-provider-library-1.0.3-cd98bd38a88c09c9f008e51f66483ff9ab75eb71.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/SampleApp/viewPagerIndicatorlibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d520015cc5a20cebd6a0efe7069b611bcaa60ef2">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-09b5887825a51797be78905506c1245c207d5a2f.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice-ormlite/1.4.14/cf81c48c00306144ffa48befe3f7a317ac2eb052/robospice-ormlite-1.4.14.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cf81c48c00306144ffa48befe3f7a317ac2eb052">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/robospice-ormlite-1.4.14-4b589757440c507a2cf00a37f168bdebfd212022.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/dev_env/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/support-annotations-22.2.0-fada46b6ca531d94eb457e49da40f22a744d6ee2.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/1.3/d2c832f9d14a11c79f58a7ee2e10526a12152c72/haha-1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d2c832f9d14a11c79f58a7ee2e10526a12152c72">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/haha-1.3-97a2059fc61fb5cf14fc8fe7b65fe0558e407111.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/internal_impl-22.2.0-c5f5d2bd695081ddc341e6b5db75bc9f8bf656fa.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-95d255acdf0cebe87d1dced903b4a4e4849ac80c.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice-retrofit/1.4.14/c5e93129d2df923119f8ee659b3723dd0d631d1d/robospice-retrofit-1.4.14.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c5e93129d2df923119f8ee659b3723dd0d631d1d">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/robospice-retrofit-1.4.14-300ba50f3248393839ad66ace5102f95236e5239.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-110df73d5c6d545d4679721f18319ab77573c5a7.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.2.0/cb20062e14c523637b7643295418097b48cccec2/okhttp-urlconnection-2.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb20062e14c523637b7643295418097b48cccec2">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/okhttp-urlconnection-2.2.0-1a06ab942650688b28798a64ffb850cae3e2ce16.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/dev_env/sdk/extras/android/m2repository/com/android/databinding/adapters/1.0-rc0/adapters-1.0-rc0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="43cd8b4485a9770ddc4bbf0eb28ba3a188d0880b">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/adapters-1.0-rc0-27747785cfb912d9a2e55d9890e87747de3fe88d.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.3/a8b8a6dfc8a17890e4c7ff8aed810763d265b68b/jackson-core-2.5.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a8b8a6dfc8a17890e4c7ff8aed810763d265b68b">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/jackson-core-2.5.3-c7a6c04e0ecc70b6e0589bcc7a3463b63c98ef6d.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/picasso-2.5.2-2db2db7a0bfb6ab5fa898975bd5451f3c9742b06.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/retrofit-1.9.0-9c6926a976343eab90a87bcad3c97311b237690e.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/commons-lang3-3.3.2-1101c41daee094c963603c3600834667319de53e.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/okhttp-2.2.0-d87ec75b4425e0437d3907a25e31e1159da5b9df.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/eventbus-2.4.0-eb9f4905d64079d352cedf2925a4a3ddb223dc2b.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/1.0-rc0/34ddf14599044eab34480d4ae6aac464c431eff3/baseLibrary-1.0-rc0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="34ddf14599044eab34480d4ae6aac464c431eff3">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/baseLibrary-1.0-rc0-dce9796cf4bfac5be9f45af0cefca712f03b37b0.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ce6a308434b0569d59dc70928fca93c4f2f18a4">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-7daf99d63545ebc96d53a05a6721f54c17e3fa1a.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.3/a8b8a6dfc8a17890e4c7ff8aed810763d265b68b/jackson-core-2.5.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a8b8a6dfc8a17890e4c7ff8aed810763d265b68b">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/jackson-core-2.5.3-c7a6c04e0ecc70b6e0589bcc7a3463b63c98ef6d.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-io/1.3.2/b6dde38349ba9bb5e6ea6320531eae969985dae5/commons-io-1.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b6dde38349ba9bb5e6ea6320531eae969985dae5">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/commons-io-1.3.2-579876e5d9de5360a8ea5afde70f42e95a034b92.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-6bb87ba869bddfba6f9afecfc210c4c6f3afaa95.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice/1.4.14/fffe1563473feb2f956608554d3e97ad805914a7/robospice-1.4.14.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fffe1563473feb2f956608554d3e97ad805914a7">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/robospice-1.4.14-9287c7594336e89fa114bcf8bb586f7c27d4dcca.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.48/e579bd2905d0399af5029aaaf9817d5fa0ca88a5/ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/ormlite-core-4.48-4a1b228303479bcac26e72ea251726cf1e1a8865.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/SampleApp/viewPagerIndicatorlibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d520015cc5a20cebd6a0efe7069b611bcaa60ef2">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-09b5887825a51797be78905506c1245c207d5a2f.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-io/1.3.2/b6dde38349ba9bb5e6ea6320531eae969985dae5/commons-io-1.3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b6dde38349ba9bb5e6ea6320531eae969985dae5">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/commons-io-1.3.2-579876e5d9de5360a8ea5afde70f42e95a034b92.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/butterknife-6.1.0-d89079adc7ef64b5b41deec43a378096ae48638a.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/commons-lang3-3.3.2-1101c41daee094c963603c3600834667319de53e.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/gson-2.3.1-b2fc92e52ed267bed72c100c87f6df182d0592b8.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.3/c37875ff66127d93e5f672708cb2dcc14c8232ab/jackson-databind-2.5.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c37875ff66127d93e5f672708cb2dcc14c8232ab">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/jackson-databind-2.5.3-9a54fe7ec0f8e3c8bc4dd03a87e0ecf5250f4e6a.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.3.1/6904771474c058abfc5912c13d12b02754712165/leakcanary-watcher-1.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6904771474c058abfc5912c13d12b02754712165">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/leakcanary-watcher-1.3.1-cb39fcb7e98c69690551bb82d21d32e4c78f8de9.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.2.0/cb20062e14c523637b7643295418097b48cccec2/okhttp-urlconnection-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cb20062e14c523637b7643295418097b48cccec2">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/okhttp-urlconnection-2.2.0-1a06ab942650688b28798a64ffb850cae3e2ce16.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/okhttp-2.2.0-d87ec75b4425e0437d3907a25e31e1159da5b9df.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.4/a607b0e12d2de769dc219e00b60a9b3d9e730d/rxjava-1.0.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00a607b0e12d2de769dc219e00b60a9b3d9e730d">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/rxjava-1.0.4-881a462c3156759921c880383286262f96949238.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-jackson/1.9.0/a3968e43e377b21ade8fa77d633716edda8fe17b/converter-jackson-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3968e43e377b21ade8fa77d633716edda8fe17b">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/converter-jackson-1.9.0-e30d305f4935c980fa68ca6469208104d829c5a5.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.48/e579bd2905d0399af5029aaaf9817d5fa0ca88a5/ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/ormlite-core-4.48-4a1b228303479bcac26e72ea251726cf1e1a8865.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.4/a607b0e12d2de769dc219e00b60a9b3d9e730d/rxjava-1.0.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00a607b0e12d2de769dc219e00b60a9b3d9e730d">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/rxjava-1.0.4-881a462c3156759921c880383286262f96949238.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-9c42ec9d03886b14bb32a10f0c0fbfa85d7d1d92.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.3/c37875ff66127d93e5f672708cb2dcc14c8232ab/jackson-databind-2.5.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c37875ff66127d93e5f672708cb2dcc14c8232ab">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/jackson-databind-2.5.3-9a54fe7ec0f8e3c8bc4dd03a87e0ecf5250f4e6a.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.2.0/c0b52915a48fa91b1b94a28d4a2997bac5f524df/okio-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/okio-1.2.0-c8afd49d5e7b4acdeb1300db596606c7988c5d2f.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice/1.4.14/fffe1563473feb2f956608554d3e97ad805914a7/robospice-1.4.14.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fffe1563473feb2f956608554d3e97ad805914a7">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/robospice-1.4.14-9287c7594336e89fa114bcf8bb586f7c27d4dcca.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/0.24.0/42dab493b8f74b164e082f281480c9d493ff89da/rxandroid-0.24.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="42dab493b8f74b164e082f281480c9d493ff89da">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/rxandroid-0.24.0-7fdd9224c6739e6335aacafc75b7944ab5e2a9b1.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3.1/325e7401a7ea16918eb39ba8baad8fd5561a55d3/leakcanary-analyzer-1.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="325e7401a7ea16918eb39ba8baad8fd5561a55d3">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/leakcanary-analyzer-1.3.1-2585f8935cc8cf29fb6c47fb1277d07d5b30bf3e.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/classes-6bb87ba869bddfba6f9afecfc210c4c6f3afaa95.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/gson-2.3.1-b2fc92e52ed267bed72c100c87f6df182d0592b8.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice-cache/1.4.14/1a13bea0b3ae105c44cb6be7fc76b6d36098faf5/robospice-cache-1.4.14.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a13bea0b3ae105c44cb6be7fc76b6d36098faf5">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/robospice-cache-1.4.14-4961bd8760a0a0294ac5a18b36433817ed5dfd08.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/butterknife-6.1.0-d89079adc7ef64b5b41deec43a378096ae48638a.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.3/ade455ede4797ed450ca6a56e589a81278fc8f45/jackson-annotations-2.5.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ade455ede4797ed450ca6a56e589a81278fc8f45">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/jackson-annotations-2.5.3-cfb2d0118c424a36cbce13fa87c43e5fd68bcb12.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.2.0/c0b52915a48fa91b1b94a28d4a2997bac5f524df/okio-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/okio-1.2.0-c8afd49d5e7b4acdeb1300db596606c7988c5d2f.jar" />
+    </item>
+    <item
+        jar="/Users/glouzonf/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.48/afa06f539a4026c10b247386312aa67404b80a16/ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/Users/glouzonf/work/git/SampleApp/app/build/intermediates/pre-dexed/staging/debug/ormlite-android-4.48-812df485b9f0228fc29c6196c113a285713b3709.jar" />
+    </item>
+
+</items>
