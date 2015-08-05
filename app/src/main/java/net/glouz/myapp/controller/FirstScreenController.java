@@ -3,6 +3,7 @@ package net.glouz.myapp.controller;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
+import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 import com.octo.android.robospice.SpiceManager;
 
 import net.glouz.myapp.R;
+import net.glouz.myapp.SampleApplication;
 import net.glouz.myapp.business.product.manager.ProductManager;
 import net.glouz.myapp.model.api.webapi.ProductWebapi;
 import net.glouz.myapp.model.models.product.ProductCategoriesContract;
@@ -39,12 +41,22 @@ public class FirstScreenController extends BaseController {
         mProductManager = new ProductManager(mProductWebapi);
     }
 
+    public FirstScreenController(View rootView) {
+        mProgressBar = ButterKnife.findById(rootView, R.id.progressBarFirstScreen);
+        mFirstScreenLoadSuccesTextView = ButterKnife.findById(rootView, R.id.firstScreenLoadSuccesTextView);
+        mFirstScreenLoadDescriptionTextView = ButterKnife.findById(rootView, R.id.firstScreenLoadDescriptionTextView);
+
+        mProductWebapi = new ProductWebapi(SampleApplication.getInstance().getSpiceManager());
+        mProductManager = new ProductManager(mProductWebapi);
+    }
+
     /**
      * get the products categories (women/men).
      */
     public void getProductsCategories() {
         mProgressBar.setVisibility(View.VISIBLE);
-        mProductManager.getProductsCategories();
+        Log.e("FSC PC", "...");
+        mProductManager.getProductsCategories(true);
     }
 
     /**
@@ -76,8 +88,8 @@ public class FirstScreenController extends BaseController {
         activity.finish();
     }
 
-    private void categoriesInContentProvider(Cursor cursor) {
-//        boolean category = false;
+    public boolean categoriesInContentProvider(Cursor cursor) {
+        boolean allCategoriesRetrieved = false;
 
 //        if (getActivity() != null && !getActivity().isFinishing()) {
 //            if (cursor == null && getActivity().getContentResolver() != null) {
@@ -85,22 +97,23 @@ public class FirstScreenController extends BaseController {
 //            }
 
             final int totalCount = cursor.getCount();
-            if (totalCount > 0) {
+            if (totalCount == 2) {
 
+                allCategoriesRetrieved = true;
                 while (cursor.moveToNext()) {
 
 //                    category = true ;
 //                    category = cursor.getString(cursor.getColumnIndex(ProductCategoriesContract.DESCRIPTION));
-//                    Log.e("CATEGORY CONTENT.PROV", category);
+                    Log.e("CATEGORY CONTENT.PROV", cursor.getString(cursor.getColumnIndex(ProductCategoriesContract.DESCRIPTION)));
 
-                    mFirstScreenLoadDescriptionTextView.setText(cursor.getString(cursor.getColumnIndex(ProductCategoriesContract.DESCRIPTION)));
+//                    mFirstScreenLoadDescriptionTextView.setText(cursor.getString(cursor.getColumnIndex(ProductCategoriesContract.DESCRIPTION)));
                 }
             }
 
             cursor.close();
 //        }
 
-//        return category;
+        return allCategoriesRetrieved;
     }
 
 }

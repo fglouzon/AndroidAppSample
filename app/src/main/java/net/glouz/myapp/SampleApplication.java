@@ -1,24 +1,25 @@
 package net.glouz.myapp;
 
 import android.app.Application;
-import android.content.Context;
 
-import com.squareup.leakcanary.LeakCanary;
-import com.squareup.leakcanary.RefWatcher;
+import com.octo.android.robospice.SpiceManager;
 
 import net.glouz.myapp.commons.utils.ContentProvidersUtils;
+import net.glouz.myapp.model.api.service.RequestServiceMockRESTapiSampleApp;
 
 /**
  * @author glouzonf
  */
 public class SampleApplication extends Application {
 
-    public static RefWatcher getRefWatcher(Context context) {
-        SampleApplication application = (SampleApplication) context.getApplicationContext();
-        return application.refWatcher;
-    }
+//    public static RefWatcher getRefWatcher(Context context) {
+//        SampleApplication application = (SampleApplication) context.getApplicationContext();
+//        return application.refWatcher;
+//    }
+//
+//    private RefWatcher refWatcher;
 
-    private RefWatcher refWatcher;
+    private SpiceManager mSpiceManager;
 
     private static SampleApplication sApplication;
 
@@ -29,11 +30,17 @@ public class SampleApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        refWatcher = LeakCanary.install(this);
+//        refWatcher = LeakCanary.install(this);
+
+        mSpiceManager = new SpiceManager(RequestServiceMockRESTapiSampleApp.class);
+        mSpiceManager.start(this);
 
         sApplication = this;
 
         ContentProvidersUtils.getListOfContentProviders();
     }
 
+    public SpiceManager getSpiceManager() {
+        return mSpiceManager;
+    }
 }

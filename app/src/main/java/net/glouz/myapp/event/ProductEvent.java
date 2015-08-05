@@ -12,11 +12,16 @@ import java.util.List;
  */
 public class ProductEvent {
 
-    public boolean productsCategoriesFetchedAndCached;
+    public boolean productsCategoriesFetchedAndCachedFromFirstScreen;
+    public boolean productsCategoriesFetchedFromCached;
     public List<ProductCategories> productCategoriesList;
 
     public boolean productsByCategoriesFetchedAndCached;
     public ProductsByCategory productsByCategoriesList;
+
+    //the cache hasnt expired so the data didn't change in the content provider
+    //and we need to reload the data
+    public boolean restartLoaderProductCategories;
 
     //switching from women to men category or vice versa
     //in the drawer

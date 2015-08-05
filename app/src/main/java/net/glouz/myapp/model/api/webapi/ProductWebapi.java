@@ -23,7 +23,7 @@ import rx.Subscriber;
 public class ProductWebapi extends BaseWebapi {
 
     //requests results will be cached for 10 minutes
-    private static final long CACHE_DURATION = 10 * DurationInMillis.ONE_MINUTE;
+    public static final long CACHE_DURATION = 10 * DurationInMillis.ONE_MINUTE;
 
     //request keycache if needed
     //private static final String PRODUCT_DETAILS_REQUEST = "product_details_request";
@@ -77,13 +77,54 @@ public class ProductWebapi extends BaseWebapi {
      * @param productsCategoriesRequest
      * @param productsCategoriesRequestListener
      */
-    public void getProductsCategories(ProductsCategoriesRequest productsCategoriesRequest, ProductsCategoriesRequestListener productsCategoriesRequestListener, String requestTag) {
+    public boolean getProductsCategories(ProductsCategoriesRequest productsCategoriesRequest, ProductsCategoriesRequestListener productsCategoriesRequestListener, String requestTag) {
 
-        if (mSpiceManager != null) {
-            //we tag the request with the productCategoryType so we can differentiate them
-            mSpiceManager.getFromCacheAndLoadFromNetworkIfExpired(productsCategoriesRequest, requestTag,
-                    CACHE_DURATION, productsCategoriesRequestListener);
-        }
+            if (mSpiceManager != null) {
+
+//                if (requestTag.equals(SampleApplication.getInstance().getString(R.string.products_category_women))){
+//                    NetworkUtils.isCacheExpired(mSpiceManager, ProductCategories.class, SampleApplication.getInstance().getString(R.string.products_category_women)).subscribe(new Subscriber<Boolean>() {
+//                        @Override
+//                        public void onCompleted() {
+//
+//                        }
+//
+//                        @Override
+//                        public void onError(Throwable e) {
+//
+//                        }
+//
+//                        @Override
+//                        public void onNext(Boolean cacheExpired) {
+//                            if (cacheExpired){
+//                                Log.e("TAG", "cache expired " + cacheExpired);
+//                                mSpiceManager.getFromCacheAndLoadFromNetworkIfExpired(productsCategoriesRequest, requestTag,
+//                                        CACHE_DURATION, productsCategoriesRequestListener);
+//                            } else {
+//                                Log.e("TAG", "cache expired " + cacheExpired);
+//                            }
+//                        }
+//                    });
+//                }
+
+
+
+//                NetworkUtils.isCacheExpired(mSpiceManager, ProductCategories.class, SampleApplication.getInstance().getString(R.string.products_category_women)).subscribe(
+//                        cacheExpired -> {
+//                            if (cacheExpired){
+//
+//                            }
+//                                Log.i("observable proceeding", "" + cacheExpired);
+//                            Log.e("TAG", "cache expired " + cacheExpired);
+//                        },
+//                        onError -> Log.e("observable error", "..."),
+//                        () -> Log.e("observable completed", "done"));
+//
+//                we tag the request with the productCategoryType so we can differentiate them
+                mSpiceManager.getFromCacheAndLoadFromNetworkIfExpired(productsCategoriesRequest, requestTag,
+                        CACHE_DURATION, productsCategoriesRequestListener);
+            }
+
+        return false;
     }
 
     /**

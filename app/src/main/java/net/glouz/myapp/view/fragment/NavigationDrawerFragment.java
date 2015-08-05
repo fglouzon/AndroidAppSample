@@ -12,14 +12,11 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import com.squareup.leakcanary.RefWatcher;
-
 import net.glouz.myapp.R;
-import net.glouz.myapp.SampleApplication;
+import net.glouz.myapp.controller.NavigationDrawerController;
 import net.glouz.myapp.event.ProductEvent;
 import net.glouz.myapp.model.adapter.NavigationDrawerAdapter;
 import net.glouz.myapp.model.models.product.ProductCategories;
-import net.glouz.myapp.controller.NavigationDrawerController;
 import net.glouz.myapp.view.activity.BaseActivity;
 
 import java.util.ArrayList;
@@ -95,7 +92,7 @@ public class NavigationDrawerFragment extends BaseFragment implements View.OnCli
     }
 
     public void onEventMainThread(ProductEvent productEvent) {
-        if (productEvent.productsCategoriesFetchedAndCached) {
+        if (productEvent.productsCategoriesFetchedFromCached) {
             mProductCategories = productEvent.productCategoriesList;
             mWomenProductCategoryButton.setSelected(true);
 

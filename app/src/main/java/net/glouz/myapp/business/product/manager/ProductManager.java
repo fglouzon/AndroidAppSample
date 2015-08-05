@@ -41,20 +41,28 @@ public class ProductManager extends BaseManager {
      *
      * @return
      */
-    public void getProductsCategories() {
+    public void getProductsCategories(boolean firstScreen) {
         mProductCategoriesRule = new ProductCategoriesRule();
         Observable<List<ProductCategories>> productCategoriesObservable=  mProductCategoriesRule.getProductsCategories(mProductWebapi);
 
-        productCategoriesObservable.subscribe(
-                productCategories -> {
-                    Log.i("observable proceeding", "...");
-                    ProductEvent productEvent = new ProductEvent();
-                    productEvent.productCategoriesList = productCategories;
-                    productEvent.productsCategoriesFetchedAndCached = true;
-                    EventBus.getDefault().post(productEvent);
-                },
-                onError -> Log.e("observable error", "..."),
-                () -> Log.e("observable completed", "done"));
+        if (productCategoriesObservable != null){
+            productCategoriesObservable.subscribe(
+                    productCategories -> {
+                        Log.i("observable proceeding", "...");
+                        ProductEvent productEvent = new ProductEvent();
+                        productEvent.productCategoriesList = productCategories;
+                        if (firstScreen){
+                            productEvent.productsCategoriesFetchedAndCachedFromFirstScreen = true;
+                        }else {
+                            productEvent.productsCategoriesFetchedFromCached = true;
+                        }
+
+                        EventBus.getDefault().post(productEvent);
+                    },
+                    onError -> Log.e("observable error", "..."),
+                    () -> Log.e("observable completed", "done"));
+        }
+
     }
 
     /**

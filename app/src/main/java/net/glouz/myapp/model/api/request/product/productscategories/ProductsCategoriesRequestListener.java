@@ -30,12 +30,12 @@ public class ProductsCategoriesRequestListener extends BaseRequestListener<Produ
     public void onRequestSuccess(final ProductCategories productCategories) {
         Ln.e(TAG + "Product categories request success");
 
-        mSubscriber.onNext(productCategories);
-        mSubscriber.onCompleted();
-
         if (productCategories != null) {
             Ln.e(productCategories.toString());
         }
+
+        mSubscriber.onNext(productCategories);
+        mSubscriber.onCompleted();
     }
 
 }

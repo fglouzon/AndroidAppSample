@@ -8,10 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.squareup.leakcanary.RefWatcher;
-
 import net.glouz.myapp.R;
-import net.glouz.myapp.SampleApplication;
 
 /**
  * @author glouzonf
@@ -76,7 +73,7 @@ public abstract class BaseDialogFrag extends DialogFragment {
 
 	@Override public void onDestroy() {
 		super.onDestroy();
-		RefWatcher refWatcher = SampleApplication.getRefWatcher(getActivity());
-		refWatcher.watch(this);
+//		RefWatcher refWatcher = SampleApplication.getRefWatcher(getActivity());
+//		refWatcher.watch(this);
 	}
 }

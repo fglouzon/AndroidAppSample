@@ -1,5 +1,7 @@
 package net.glouz.myapp.controller;
 
+import android.util.Log;
+
 import com.octo.android.robospice.SpiceManager;
 
 import net.glouz.myapp.business.product.manager.ProductManager;
@@ -22,6 +24,7 @@ public class NavigationDrawerController extends BaseController {
      * get the products categories (women/men).
      */
     public void getProductsCategories() {
-        mProductManager.getProductsCategories();
+        Log.e("NDC PC", "...");
+        mProductManager.getProductsCategories(false);
     }
 }

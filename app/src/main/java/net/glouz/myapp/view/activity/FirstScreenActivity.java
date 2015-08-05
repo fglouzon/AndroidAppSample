@@ -27,6 +27,11 @@ public class FirstScreenActivity extends BaseActivity {
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+    @Override
     void setContentView() {
         setContentView(R.layout.first_screen_activity);
     }

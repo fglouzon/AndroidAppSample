@@ -7,9 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.octo.android.robospice.SpiceManager;
-import com.squareup.leakcanary.RefWatcher;
 
-import net.glouz.myapp.SampleApplication;
 import net.glouz.myapp.view.activity.BaseActivity;
 
 import butterknife.ButterKnife;
@@ -26,6 +24,8 @@ import de.greenrobot.event.EventBus;
  * (i.e @InjectView(R.id.button1) Button button1;)
  */
 public abstract class BaseFragment extends Fragment {
+
+    public static final String TAG = BaseActivity.class.getSimpleName();
 
     protected EventBus mEventBus = EventBus.getDefault();
 
@@ -118,8 +118,8 @@ public abstract class BaseFragment extends Fragment {
 
     @Override public void onDestroy() {
         super.onDestroy();
-        RefWatcher refWatcher = SampleApplication.getRefWatcher(getActivity());
-        refWatcher.watch(this);
+//        RefWatcher refWatcher = SampleApplication.getRefWatcher(getActivity());
+//        refWatcher.watch(this);
     }
 
 }
